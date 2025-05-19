@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+.body {
+    background-color: ghostwhite;
+}
+
+.counter-container {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-conent {
+    background-color: black;
+    color: #5EE6D0;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: inset;
+}
+
+.p{
+    color: red;
+    font-weight: 16px;
+}
+
+.count {
+    font-size: 4rem;
+    margin: 20px 10px;
+    color: wheat
+}
+
+.buttons button {
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #5E79E6;
+    color: white;
+    transition-duration: 3s;
+}
